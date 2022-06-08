@@ -1,0 +1,5 @@
+.bg-carrosel {
+    width: 100% !important;
+    height: 100vh;
+    object-fit: cover;
+}

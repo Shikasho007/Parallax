@@ -1,0 +1,178 @@
+/* IMG */
+
+.bg-shikasho {
+    background: url('../img/news.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.9;
+}
+
+.bg-new {
+    font-style: italic;
+    color: #002470;
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20vh;
+    z-index: 5;
+}
+
+.h2 {
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+
+#icon {
+    font-size: 50px;
+    transition: 0.4s;
+    padding: 30px 0 0 0;
+}
+
+#icon:hover {
+    transition: 0.4s;
+    color: #3a5fcf;
+    cursor: pointer;
+}
+
+#footer {
+    background: #404040;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#copy {
+    background: #404040;
+    padding: 30px 0 0 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* button */
+
+.back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+i {
+    font-style: italic;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top:hover {
+    background: #36b4e6;
+    color: #fff;
+}
+
+a:hover {
+    color: #6c94ec;
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background: rgb(18, 107, 158);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.smooth {
+    scroll-behavior: smooth;
+}
+
+
+/* Contato */
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3eC1d5;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3eC1d5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textaere {
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
+
+#contact-form .main-btn {
+    width: 150px;
+    height: 50px;
+    border: solid 1px rgb(192, 191, 191);
+    border-radius: 15px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+#contact-form .main-btn:hover {
+    background-color: #3eC1d5;
+}
+
+
+/* .card-img-top {
+    position: absolute;
+} */
+
+.btn-primary {
+    position: relative;
+}
